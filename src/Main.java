@@ -5,6 +5,8 @@ public class Main {
 		System.out.println("---------Temperature Converter---------");
 		System.out.println("1 - Celsius to Fahrenheit");
 		System.out.println("2 - Fahrenheit to Celsius");
+		System.out.println("3 - Exit");
+		
 	}
 
 }
