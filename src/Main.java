@@ -9,10 +9,22 @@ public class Main {
 
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter your choice: ");
-		String choice = scanner.next();
+		int choice = scanner.nextInt();
 		scanner.close();
 		
-		System.out.println("Your choice was: " + choice);
+		switch(choice) {
+			case 1:
+				System.out.println("You choose Celsius to Fahrenheit!");
+				break;
+			case 2:
+				System.out.println("You choose Fahrenheit to Celsius!");
+				break;
+			case 3:
+				System.out.println("Goodbye!");
+				break;
+			default:
+				System.out.println("Invalid Command!");
+		}
 	}
 
 }
